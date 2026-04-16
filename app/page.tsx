@@ -75,7 +75,7 @@ export default function Page() {
           
           {/* Card 1: Stats */}
           <div className="bg-[#E6E6E3] rounded-[2px] p-6 xl:p-8 flex flex-col justify-between shadow-[0_30px_60px_rgba(0,0,0,0.05)] border border-black/5 h-full min-h-[460px]">
-            <div className="flex items-start gap-3 xl:gap-4">
+            <div className="flex flex-col gap-4">
               <div className="flex items-baseline shrink-0">
                 <span className="text-[4rem] xl:text-[5rem] font-[300] tracking-[-1px] leading-none text-[#1A1A1A]">
                   4.9
@@ -84,7 +84,7 @@ export default function Page() {
                   /5 Overall
                 </span>
               </div>
-              <p className="text-[13px] xl:text-[14px] text-[#555] font-normal leading-[1.6] pt-2 max-w-[200px]">
+              <p className="text-[13px] xl:text-[14px] text-[#555] font-normal leading-[1.6] max-w-[280px]">
                 We've delivered 56+ projects that help companies generate real results.
               </p>
             </div>
